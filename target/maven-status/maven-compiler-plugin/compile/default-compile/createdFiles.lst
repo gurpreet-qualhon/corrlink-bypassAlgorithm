@@ -1,13 +1,9 @@
 com/example/bypassAlgorithm/entity/UserAccount.class
+com/example/bypassAlgorithm/controller/UserAccountController.class
 com/example/bypassAlgorithm/duo/UserDao.class
+com/example/bypassAlgorithm/entity/LoginAccount.class
 com/example/bypassAlgorithm/entity/LoginUserReposne.class
 com/example/bypassAlgorithm/BypassAlgorithmApplication.class
 com/example/bypassAlgorithm/controller/HomeController.class
-com/example/bypassAlgorithm/entity/Courses.class
-com/example/bypassAlgorithm/repository/UserAccountRepository.class
-com/example/bypassAlgorithm/controller/CourseServiceImp.class
-com/example/bypassAlgorithm/controller/UserAccountController.class
-com/example/bypassAlgorithm/entity/LoginAccount.class
 com/example/bypassAlgorithm/controller/UserAccountService.class
-com/example/bypassAlgorithm/duo/CourseDao.class
-com/example/bypassAlgorithm/controller/CourseService.class
+com/example/bypassAlgorithm/repository/UserAccountRepository.class
