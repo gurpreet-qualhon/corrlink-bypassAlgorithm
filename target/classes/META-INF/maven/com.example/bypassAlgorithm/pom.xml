@@ -107,34 +107,7 @@
         <artifactId>azure-webapp-maven-plugin</artifactId>  
         <version>1.8.0</version>  
         <configuration> 
-          <schemaVersion>V2</schemaVersion>  
-          <resourceGroup>alldaytext</resourceGroup>  
-          <appName>allDayTextLocal</appName>  
-          <pricingTier>P1v2</pricingTier>  
-          <region>southcentralus</region>  
-          <runtime> 
-            <os>linux</os>  
-            <javaVersion>Java 11</javaVersion>  
-            <webContainer>Java SE</webContainer> 
-          </runtime>  
-          <!-- Begin of App Settings  -->  
-          <appSettings> 
-            <property> 
-              <name>JAVA_OPTS</name>  
-              <value>-Dserver.port=80 -Djava.net.preferIPv4Stack=true</value> 
-            </property> 
-          </appSettings>  
-          <!-- End of App Settings  -->  
-          <deployment> 
-            <resources> 
-              <resource> 
-                <directory>${project.basedir}/target</directory>  
-                <includes> 
-                  <include>*.jar</include> 
-                </includes> 
-              </resource> 
-            </resources> 
-          </deployment> 
+          
         </configuration> 
       </plugin> 
     </plugins> 
